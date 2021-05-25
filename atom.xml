@@ -50,10 +50,9 @@
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;挖矿&quot;&gt;&lt;a href=&quot;#挖矿&quot; class=&quot;headerlink&quot; title=&quot;挖矿 +&quot;&gt;&lt;/a&gt;挖矿 +&lt;/h1&gt;&lt;h2 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描
-      
+      &lt;h1 id=&quot;挖矿&quot;&gt;&lt;a href=&quot;#挖矿&quot; class=&quot;headerlink&quot; title=&quot;挖矿 +&quot;&gt;&lt;/a&gt;挖矿 +&lt;/h1&gt;&lt;h2 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h2&gt;&lt;p&gt;&lt;em&gt;有N名矿工在挖矿。工厂预先给第i名矿工支付了Mi元工资，他每挖一吨矿需要消费Ki元头 余下的钱不足Ki元，他就停止挖矿。他每挖一吨矿，工厂会立即奖励他2元钱。奖励的钱于挖矿的消费。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;给出矿工的信息，请你计算一下矿工们总共可以挖出多少吨矿，以及哪个矿工挖的矿最多。&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;输入格式&quot;&gt;&lt;a href=&quot;#输入格式&quot; class=&quot;headerlink&quot; title=&quot;输入格式&quot;&gt;&lt;/a&gt;输入格式&lt;/h2&gt;
     
     </summary>
     
@@ -74,10 +73,8 @@
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;字符串的展开&quot;&gt;&lt;a href=&quot;#字符串的展开&quot; class=&quot;headerlink&quot; title=&quot;字符串的展开&quot;&gt;&lt;/a&gt;字符串的展开&lt;/h1&gt;&lt;h2 id=&quot;题目链接&quot;&gt;&lt;a href=&quot;#题目链接&quot; class=&quot;headerlink&quot; title=&quot;题
-      
+      &lt;h1 id=&quot;字符串的展开&quot;&gt;&lt;a href=&quot;#字符串的展开&quot; class=&quot;headerlink&quot; title=&quot;字符串的展开&quot;&gt;&lt;/a&gt;字符串的展开&lt;/h1&gt;&lt;h2 id=&quot;题目链接&quot;&gt;&lt;a href=&quot;#题目链接&quot; class=&quot;headerlink&quot; title=&quot;题目链接&quot;&gt;&lt;/a&gt;题目链接&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P1098&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;luoguP1098&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;分析&quot;&gt;&lt;a href=&quot;#分析&quot; class=&quot;headerlink&quot; title=&quot;分析&quot;&gt;&lt;/a&gt;分析&lt;/h2&gt;&lt;p&gt;简单模拟，按照题目要求来一步步实现即可&lt;/p&gt;
     
     </summary>
     
@@ -100,11 +97,13 @@
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;概念&quot;&gt;&lt;a href=&quot;#概念&quot; class=&quot;headerlink&quot; title=&quot;概念&quot;&gt;&lt;/a&gt;概念&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;二叉堆是一种特殊的堆，二叉堆是完全二元树（二叉树）或者是近似完全二元树（二叉树）。二叉堆有两种：最大堆和最小堆。最
-      
+      &lt;h1 id=&quot;概念&quot;&gt;&lt;a href=&quot;#概念&quot; class=&quot;headerlink&quot; title=&quot;概念&quot;&gt;&lt;/a&gt;概念&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;二叉堆是一种特殊的堆，二叉堆是完全二元树（二叉树）或者是近似完全二元树（二叉树）。二叉堆有两种：最大堆和最小堆。最大堆：父结点的键值总是大于或等于任何一个子节点的键值；最小堆：父结点的键值总是小于或等于任何一个子节点的键值。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;存储&quot;&gt;&lt;a href=&quot;#存储&quot; class=&quot;headerlink&quot; title=&quot;存储&quot;&gt;&lt;/a&gt;存储&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;二叉堆是一种数组对象，它可以被视为一棵完全二叉树。树中每个结点与数组中存放该结点中值的那个元素相对应&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMS5heDF4LmNvbS8yMDIwLzA3LzIwL1U0N0F4SS5wbmc?x-oss-process=image/format,png&quot; alt=&quot;二叉堆存储示意图&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -127,11 +126,11 @@
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;概念&quot;&gt;&lt;a href=&quot;#概念&quot; class=&quot;headerlink&quot; title=&quot;概念&quot;&gt;&lt;/a&gt;概念&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;区间类动态规划是线性动态规划的扩展，它在分阶段地划分问题时，与阶段中元素出现的顺序和由前一阶段的哪些元素合并而来由
-      
+      &lt;h1 id=&quot;概念&quot;&gt;&lt;a href=&quot;#概念&quot; class=&quot;headerlink&quot; title=&quot;概念&quot;&gt;&lt;/a&gt;概念&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;区间类动态规划是线性动态规划的扩展，它在分阶段地划分问题时，与阶段中元素出现的顺序和由前一阶段的哪些元素合并而来由很大的关系。令状态 $ f(i,j) $ 表示将下标位置  到  的所有元素合并能获得的价值的最大值，那么 $ f(i,j)=max{f(i,k)+f(k+1,j)+cost} $ ，$ cost $  为将这两组元素合并起来的代价。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;特点&quot;&gt;&lt;a href=&quot;#特点&quot; class=&quot;headerlink&quot; title=&quot;特点&quot;&gt;&lt;/a&gt;特点&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;合并&lt;/strong&gt; ：即将两个或多个部分进行整合，当然也可以反过来；&lt;br&gt;&lt;strong&gt;特征&lt;/strong&gt; ：能将问题分解为能两两合并的形式；&lt;br&gt;&lt;strong&gt;求解&lt;/strong&gt; ：对整个问题设最优值，枚举合并点，将问题分解为左右两个部分，最后合并两个部分的最优值得到原问题的最优值。&lt;/p&gt;
+&lt;h1 id=&quot;练习题&quot;&gt;&lt;a href=&quot;#练习题&quot; class=&quot;headerlink&quot; title=&quot;练习题&quot;&gt;&lt;/a&gt;练习题&lt;/h1&gt;
     
     </summary>
     
@@ -154,10 +153,9 @@
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;扩散&quot;&gt;&lt;a href=&quot;#扩散&quot; class=&quot;headerlink&quot; title=&quot;扩散&quot;&gt;&lt;/a&gt;扩散&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P1661&quot; target=&quot;_blank&quot; rel=&quot;
-      
+      &lt;h1 id=&quot;扩散&quot;&gt;&lt;a href=&quot;#扩散&quot; class=&quot;headerlink&quot; title=&quot;扩散&quot;&gt;&lt;/a&gt;扩散&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P1661&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;洛谷P1661&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;分析&quot;&gt;&lt;a href=&quot;#分析&quot; class=&quot;headerlink&quot; title=&quot;分析&quot;&gt;&lt;/a&gt;分析&lt;/h2&gt;&lt;p&gt;二分(寻找最小的时间)+并查集(检验是否构成连通块)&lt;/p&gt;
+&lt;h2 id=&quot;AC代码&quot;&gt;&lt;a href=&quot;#AC代码&quot; class=&quot;headerlink&quot; title=&quot;AC代码&quot;&gt;&lt;/a&gt;AC代码&lt;/h2&gt;
     
     </summary>
     
@@ -182,10 +180,9 @@
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;概念&quot;&gt;&lt;a href=&quot;#概念&quot; class=&quot;headerlink&quot; title=&quot;概念&quot;&gt;&lt;/a&gt;概念&lt;/h1&gt;&lt;p&gt;&lt;code&gt;Map&lt;/code&gt;是&lt;code&gt;STL&lt;/code&gt;的一个关联容器，它提供一对一（其中第一个可以称为关键字，每个关键字只能在&lt;
-      
+      &lt;h1 id=&quot;概念&quot;&gt;&lt;a href=&quot;#概念&quot; class=&quot;headerlink&quot; title=&quot;概念&quot;&gt;&lt;/a&gt;概念&lt;/h1&gt;&lt;p&gt;&lt;code&gt;Map&lt;/code&gt;是&lt;code&gt;STL&lt;/code&gt;的一个关联容器，它提供一对一（其中第一个可以称为关键字，每个关键字只能在&lt;code&gt;map&lt;/code&gt;中出现一次，第二个可能称为该关键字的值）的数据处理能力，由于这个特性，它完成有可能在我们处理一对一数据的时候，在编程上提供快速通道。&lt;/p&gt;
+&lt;h2 id=&quot;个人理解&quot;&gt;&lt;a href=&quot;#个人理解&quot; class=&quot;headerlink&quot; title=&quot;个人理解&quot;&gt;&lt;/a&gt;个人理解&lt;/h2&gt;&lt;p&gt;&lt;code&gt;map&lt;/code&gt;可以看做一个特殊的数组，其下标可以为任意类型，即&lt;code&gt;key&lt;/code&gt;&lt;/p&gt;
+&lt;h1 id=&quot;基本操作&quot;&gt;&lt;a href=&quot;#基本操作&quot; class=&quot;headerlink&quot; title=&quot;基本操作&quot;&gt;&lt;/a&gt;基本操作&lt;/h1&gt;
     
     </summary>
     
@@ -208,10 +205,9 @@
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;题目传送门&quot;&gt;&lt;a href=&quot;#题目传送门&quot; class=&quot;headerlink&quot; title=&quot;题目传送门&quot;&gt;&lt;/a&gt;题目传送门&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P2814&quot; target=&quot;_
-      
+      &lt;h1 id=&quot;题目传送门&quot;&gt;&lt;a href=&quot;#题目传送门&quot; class=&quot;headerlink&quot; title=&quot;题目传送门&quot;&gt;&lt;/a&gt;题目传送门&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P2814&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;洛谷 P2814 家谱&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;思路&quot;&gt;&lt;a href=&quot;#思路&quot; class=&quot;headerlink&quot; title=&quot;思路&quot;&gt;&lt;/a&gt;思路&lt;/h1&gt;&lt;p&gt;&lt;del&gt;水的&lt;/del&gt;典型的并查集题目，但在建立关系时需要有一定的思考，因为名字都是字符串，所以这里采用了&lt;code&gt;map&lt;/code&gt;以建立名字和名字之间的关系&lt;/p&gt;
+&lt;h1 id=&quot;AC代码&quot;&gt;&lt;a href=&quot;#AC代码&quot; class=&quot;headerlink&quot; title=&quot;AC代码&quot;&gt;&lt;/a&gt;AC代码&lt;/h1&gt;
     
     </summary>
     
@@ -288,10 +284,8 @@
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;题-0X00&quot;&gt;&lt;a href=&quot;#题-0X00&quot; class=&quot;headerlink&quot; title=&quot;题 0X00&quot;&gt;&lt;/a&gt;题 0X00&lt;/h1&gt;&lt;h2 id=&quot;题目传送门&quot;&gt;&lt;a href=&quot;#题目传送门&quot; class=&quot;headerlink&quot; title=
-      
+      &lt;h1 id=&quot;题-0X00&quot;&gt;&lt;a href=&quot;#题-0X00&quot; class=&quot;headerlink&quot; title=&quot;题 0X00&quot;&gt;&lt;/a&gt;题 0X00&lt;/h1&gt;&lt;h2 id=&quot;题目传送门&quot;&gt;&lt;a href=&quot;#题目传送门&quot; class=&quot;headerlink&quot; title=&quot;题目传送门&quot;&gt;&lt;/a&gt;题目传送门&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://codeforces.com/problemset/problem/1324/E&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CF1324E Sleeping Schedule&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;分析&quot;&gt;&lt;a href=&quot;#分析&quot; class=&quot;headerlink&quot; title=&quot;分析&quot;&gt;&lt;/a&gt;分析&lt;/h2&gt;&lt;p&gt;这个题由于每次都需要选择，是在ai-1时睡还是ai时睡，那么很明显，这个题需要用动态规划来写。&lt;/p&gt;
     
     </summary>
     
@@ -310,10 +304,9 @@
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;题目传送门&quot;&gt;&lt;a href=&quot;#题目传送门&quot; class=&quot;headerlink&quot; title=&quot;题目传送门&quot;&gt;&lt;/a&gt;题目传送门&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P1541&quot; target=&quot;_
-      
+      &lt;h1 id=&quot;题目传送门&quot;&gt;&lt;a href=&quot;#题目传送门&quot; class=&quot;headerlink&quot; title=&quot;题目传送门&quot;&gt;&lt;/a&gt;题目传送门&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P1541&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;luogu&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;分析&quot;&gt;&lt;a href=&quot;#分析&quot; class=&quot;headerlink&quot; title=&quot;分析&quot;&gt;&lt;/a&gt;分析&lt;/h1&gt;&lt;p&gt;&lt;del&gt;暴力的来看&lt;/del&gt; 这道题用动态规划求解，则可以定义状态 $ f[i][j][k][l] $ ，表示使用了 $ i $ 张 $ a $ 卡片, $ j $ 张 $ b $ 卡片, $ k $ 张 $ c $ 卡片, $ l $ 张 $ d $ 卡片后可以获得的最大分数，可以将它理解为一个多维的走楼梯问题，每次有 $ 4 $ 种走法&lt;/p&gt;
+&lt;p&gt;状态转移方程如下&lt;br&gt;&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt;(i != &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;) dp[i][j][l][k] = max(dp[i][j][l][k], dp[i - &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;][j][l][k] + s[t]);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// s数组储存的棋盘对应的每个位置的分数&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt;(j != &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;) dp[i][j][l][k] = max(dp[i][j][l][k], dp[i][j - &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;][l][k] + s[t]);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt;(l != &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;) dp[i][j][l][k] = max(dp[i][j][l][k], dp[i][j][l - &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;][k] + s[t]);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt;(k != &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;) dp[i][j][l][k] = max(dp[i][j][l][k], dp[i][j][l][k - &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;] + s[t]);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
     
     </summary>
     
@@ -336,11 +329,13 @@
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;最长上升子序列（Longest Increasing Subsequence，LIS），在计算机科学上是指一个序列
-      
+      &lt;h1 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;最长上升子序列（Longest Increasing Subsequence，LIS），在计算机科学上是指一个序列中最长的单调递增的子序列。&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;引自百度百科&lt;/p&gt;
+
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;状态与状态转移方程&quot;&gt;&lt;a href=&quot;#状态与状态转移方程&quot; class=&quot;headerlink&quot; title=&quot;状态与状态转移方程&quot;&gt;&lt;/a&gt;状态与状态转移方程&lt;/h1&gt;&lt;p&gt;最长上升子序列是序列，其状态是一维的，所以我们可以定义状态 f(i),表示以a[i]结尾的最长上升子序列&lt;/p&gt;
+&lt;p&gt;如果每一个元素都只考虑它本身，则以a[i]结尾的最长上升子序列长度为一，即它本身，则初始化&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;f[i] &amp;#x3D; 1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
     
     </summary>
     
@@ -381,11 +376,9 @@
     
     <summary type="html">
     
-      
-      
-        &lt;h2 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot; title=&quot;准备&quot;&gt;&lt;/a&gt;准备&lt;/h2&gt;&lt;p&gt;需要两个东西，Java环境和开服包&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.java.com/zh_CN/&quot; target=
-      
+      &lt;h2 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot; title=&quot;准备&quot;&gt;&lt;/a&gt;准备&lt;/h2&gt;&lt;p&gt;需要两个东西，Java环境和开服包&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.java.com/zh_CN/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Java8官网链接&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://mcversions.net/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;官方开服包链接&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;检查&quot;&gt;&lt;a href=&quot;#检查&quot; class=&quot;headerlink&quot; title=&quot;检查&quot;&gt;&lt;/a&gt;检查&lt;/h2&gt;&lt;p&gt;在命令行输入以下代码：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;java -version&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br&gt;如果出现类似下面的输出，则Java已安装成功&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;java version &amp;quot;1.8.0_251&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Java(TM) SE Runtime Environment (build 1.8.0_251-b08)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Java HotSpot(TM) Client VM (build 25.251-b08, mixed mode, sharing)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
     
     </summary>
     
@@ -426,10 +419,12 @@
     
     <summary type="html">
     
-      
-      
-        &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://s1.ax1x.com/2020/04/12/GqWaTg.png&quot; alt=&quot;&quot; title=&quot;图1 
-      
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://s1.ax1x.com/2020/04/12/GqWaTg.png&quot; alt title=&quot;图1 树&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;上物，谓之树焉&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;基本概念&quot;&gt;&lt;a href=&quot;#基本概念&quot; class=&quot;headerlink&quot; title=&quot;基本概念&quot;&gt;&lt;/a&gt;基本概念&lt;/h2&gt;
     
     </summary>
     
@@ -452,10 +447,14 @@
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;神奇的队伍&quot;&gt;&lt;a href=&quot;#神奇的队伍&quot; class=&quot;headerlink&quot; title=&quot;神奇的队伍&quot;&gt;&lt;/a&gt;神奇的队伍&lt;/h1&gt;&lt;h2 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;
-      
+      &lt;h1 id=&quot;神奇的队伍&quot;&gt;&lt;a href=&quot;#神奇的队伍&quot; class=&quot;headerlink&quot; title=&quot;神奇的队伍&quot;&gt;&lt;/a&gt;神奇的队伍&lt;/h1&gt;&lt;h2 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;你知道吗，在重庆市第八中学校中，流传着四大不可思议的传说。接下来，你将看到四大不可思议之一——神奇的队伍。&lt;/p&gt;
+&lt;p&gt;相传在八中科技楼的五楼和六楼之间的楼梯的第七步台阶的旁边墙壁上，存在一个隐藏的空间，这个空间中存在着一支神奇的队伍，一支由名为ぎさう的怪异组成的队伍。他们性格散漫，整天以捣蛋搞恶作剧为生，这不，他们又准备出发啦！当然，在他们出发捣乱之前，肯定要先一个一个的排好队，所有的ぎさう一共需要排成n列，当带头的ぎさう喊出稍息的之后，由于这些ぎさう散漫惯了，有迈左腿的，也有迈右腿的，很不整齐。已知在第i列中，有li个ぎさう先迈出了左腿，有ri个ぎさう迈出了右腿。假设所有的ぎさう中，有L个ぎさう迈出左腿，R个ぎさう迈出右腿时，整个队伍的整齐度为|L-R|，现在，带头的ぎさう希望能改变一整列的ぎさう的动作，使得这一列的所有ぎさう之前迈出左腿的现在迈右腿，之前迈右腿的现在迈左腿（当然也可以不改变）。现在带头的ぎさう需要计算，他需要改变哪一列，才能使整个队伍的整齐度最大。如果不改变任何一列，则输出0.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;输入格式&quot;&gt;&lt;a href=&quot;#输入格式&quot; class=&quot;headerlink&quot; title=&quot;输入格式&quot;&gt;&lt;/a&gt;输入格式&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;第一行一个数字n（1≤n≤100000），表示ぎさう所拥有的列数。&lt;/p&gt;
+&lt;p&gt;接下来n行，每行两个数字l_i和r_i（1≤l_i，r_i≤500），表示这一列的ぎさう迈出左腿的数量和迈出右腿的数量。&lt;/p&gt;
+&lt;/blockquote&gt;
     
     </summary>
     
@@ -476,10 +475,9 @@
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
