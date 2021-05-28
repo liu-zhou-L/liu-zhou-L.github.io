@@ -16,13 +16,6 @@
   </url>
   
   <url>
-    <loc>https://liu-zhou-l.github.io/surprice/index.html</loc>
-    
-    <lastmod>2021-05-25</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://liu-zhou-l.github.io/tags/index.html</loc>
     
     <lastmod>2021-05-25</lastmod>
@@ -30,7 +23,7 @@
   </url>
   
   <url>
-    <loc>https://liu-zhou-l.github.io/game/index.html</loc>
+    <loc>https://liu-zhou-l.github.io/surprice/index.html</loc>
     
     <lastmod>2021-05-25</lastmod>
     
@@ -38,6 +31,13 @@
   
   <url>
     <loc>https://liu-zhou-l.github.io/notices/index.html</loc>
+    
+    <lastmod>2021-05-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://liu-zhou-l.github.io/game/index.html</loc>
     
     <lastmod>2021-05-25</lastmod>
     
@@ -58,28 +58,14 @@
   </url>
   
   <url>
-    <loc>https://liu-zhou-l.github.io/posts/aa01fe8/</loc>
+    <loc>https://liu-zhou-l.github.io/posts/2e6c9d1e/</loc>
     
     <lastmod>2021-05-25</lastmod>
     
   </url>
   
   <url>
-    <loc>https://liu-zhou-l.github.io/posts/9ff21dc7/</loc>
-    
-    <lastmod>2021-05-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://liu-zhou-l.github.io/posts/628fb573/</loc>
-    
-    <lastmod>2021-05-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://liu-zhou-l.github.io/posts/4a17b156/</loc>
+    <loc>https://liu-zhou-l.github.io/posts/680420e/</loc>
     
     <lastmod>2021-05-25</lastmod>
     
@@ -93,7 +79,42 @@
   </url>
   
   <url>
+    <loc>https://liu-zhou-l.github.io/posts/9ff21dc7/</loc>
+    
+    <lastmod>2021-05-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://liu-zhou-l.github.io/posts/69c852d4/</loc>
+    
+    <lastmod>2021-05-25</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://liu-zhou-l.github.io/posts/d17c7465/</loc>
+    
+    <lastmod>2021-05-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://liu-zhou-l.github.io/posts/aa01fe8/</loc>
+    
+    <lastmod>2021-05-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://liu-zhou-l.github.io/posts/6e153245/</loc>
+    
+    <lastmod>2021-05-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://liu-zhou-l.github.io/posts/65e3b74e/</loc>
     
     <lastmod>2021-05-25</lastmod>
     
@@ -108,27 +129,6 @@
   
   <url>
     <loc>https://liu-zhou-l.github.io/posts/2d0d7c25/</loc>
-    
-    <lastmod>2021-05-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://liu-zhou-l.github.io/posts/bbf9d7b7/</loc>
-    
-    <lastmod>2021-05-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://liu-zhou-l.github.io/posts/6e153245/</loc>
-    
-    <lastmod>2021-05-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://liu-zhou-l.github.io/about/index.html</loc>
     
     <lastmod>2021-05-25</lastmod>
     
@@ -170,7 +170,14 @@
   </url>
   
   <url>
-    <loc>https://liu-zhou-l.github.io/posts/65e3b74e/</loc>
+    <loc>https://liu-zhou-l.github.io/posts/bbf9d7b7/</loc>
+    
+    <lastmod>2021-05-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://liu-zhou-l.github.io/about/index.html</loc>
     
     <lastmod>2021-05-25</lastmod>
     
@@ -191,7 +198,14 @@
   </url>
   
   <url>
-    <loc>https://liu-zhou-l.github.io/posts/2e6c9d1e/</loc>
+    <loc>https://liu-zhou-l.github.io/posts/4a17b156/</loc>
+    
+    <lastmod>2021-05-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://liu-zhou-l.github.io/posts/628fb573/</loc>
     
     <lastmod>2021-05-25</lastmod>
     
@@ -199,20 +213,6 @@
   
   <url>
     <loc>https://liu-zhou-l.github.io/posts/5c3e68cc/</loc>
-    
-    <lastmod>2021-05-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://liu-zhou-l.github.io/posts/680420e/</loc>
-    
-    <lastmod>2021-05-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://liu-zhou-l.github.io/posts/69c852d4/</loc>
     
     <lastmod>2021-05-25</lastmod>
     
@@ -242,14 +242,14 @@
 
   
   <url>
-    <loc>https://liu-zhou-l.github.io/tags/map/</loc>
+    <loc>https://liu-zhou-l.github.io/tags/C-%E8%AF%AD%E6%B3%95/</loc>
     <lastmod>2021-05-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://liu-zhou-l.github.io/tags/C-%E8%AF%AD%E6%B3%95/</loc>
+    <loc>https://liu-zhou-l.github.io/tags/map/</loc>
     <lastmod>2021-05-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -270,14 +270,14 @@
   </url>
   
   <url>
-    <loc>https://liu-zhou-l.github.io/tags/%E5%A0%86/</loc>
+    <loc>https://liu-zhou-l.github.io/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/</loc>
     <lastmod>2021-05-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://liu-zhou-l.github.io/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/</loc>
+    <loc>https://liu-zhou-l.github.io/tags/%E5%A0%86/</loc>
     <lastmod>2021-05-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -314,13 +314,6 @@
   </url>
   
   <url>
-    <loc>https://liu-zhou-l.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
-    <lastmod>2021-05-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://liu-zhou-l.github.io/categories/%E6%9D%82%E9%A1%B9/</loc>
     <lastmod>2021-05-28</lastmod>
     <changefreq>daily</changefreq>
@@ -328,7 +321,14 @@
   </url>
   
   <url>
-    <loc>https://liu-zhou-l.github.io/categories/%E6%97%A5%E5%B8%B8%E9%A2%98%E7%9B%AE/</loc>
+    <loc>https://liu-zhou-l.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
+    <lastmod>2021-05-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://liu-zhou-l.github.io/categories/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2021-05-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -342,7 +342,7 @@
   </url>
   
   <url>
-    <loc>https://liu-zhou-l.github.io/categories/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://liu-zhou-l.github.io/categories/%E6%97%A5%E5%B8%B8%E9%A2%98%E7%9B%AE/</loc>
     <lastmod>2021-05-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
